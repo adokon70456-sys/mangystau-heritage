@@ -195,7 +195,17 @@
         <!-- Сол жақ: 3D модель және Фото орны -->
         <div class="card">
             <h2>Жәдігердің визуалды көрінісі</h2>
-            <div id="viewer-container">
+         <!-- Сол жақ: Сырғаның шынайы фотосы -->
+        <div class="card">
+            <h2>Жәдігердің визуалды көрінісі</h2>
+            <div id="viewer-container" style="background: #0a0604; display: flex; align-items: center; justify-content: center; height: 350px; border-radius: 8px; border: 1px solid #3b2317; overflow: hidden;">
+                <!-- МЫНА ЖЕРГЕ ФОТОҢЫЗДЫ ҚОСАСЫЗ -->
+                <img src="sirga.jpg" alt="Айшық сырға" style="max-width: 100%; max-height: 100%; object-fit: contain; border-radius: 6px;">
+            </div>
+            <p style="text-align: center; font-size: 0.85rem; color: var(--text-muted); margin-top: 8px;">
+                🏛️ Көне жәдігердің түпнұсқа фотосуреті
+            </p>
+        </div>
                 <!-- 3D анимация шығатын canvas -->
                 <canvas id="webgl-canvas"></canvas>
                 
